@@ -3,6 +3,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    
 }
 
 
@@ -22,29 +23,76 @@ header p{
 }
 strong{
     color: white;
+    text-decoration: none;
 }
 
 section{
     font-family: cursive;
     padding: 10px;
-    line-height: 1.6em;
+    margin: 10px;
+    line-height: 2em;
 }
 
 #foto-flor{
     background-image: url('../imagens/background001.jpg');
-    background-position: left top;
+    background-position: bottom right;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+    height: 300px;
+    box-shadow: inset 6px 6px 22px 0px #000;;
     /* height: 300px; */
+    
     
 }
 
 #texto-flor{
+    background-color:rgba(0, 0, 0, 0.39);
+    position: absolute;
     color: white;
-    margin: 10px;
     width: 200px;
-    background-color:red;
+    line-height: 2.2em;
+    margin-top: 15px;
+    padding: 7px;
+
+}
+
+#foto-folha{
+    background-image: url('../imagens/background002.jpg');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 22px 0px #000;
+    position: relative;
+    height: 350px;
+}
+
+#texto-folha{
+    background-color:rgba(0, 0, 0, 0.39);
+    position: absolute;
+    color: white;
+    width: 200px;
+    line-height: 2.2em;
+    margin-top: 25px;
+    padding: 7px;
+}
+footer p {
+    background-color: black;
+    color: grey;
+    text-align: center;
+}
+footer a:hover{
+    color: rgb(19, 19, 209);
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
     
 }
